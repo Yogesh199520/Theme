@@ -1,0 +1,8 @@
+.col-2 .acf-repeater .acf-row{display:table-cell;}
+.acf-field-message {
+    margin-bottom: -12px !important;
+    background: #fff;
+    z-index: 99;
+    padding: 15px 12px 0 !important;
+    font-size: 16px;
+}

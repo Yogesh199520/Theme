@@ -1,0 +1,7 @@
+{
+    "test1": { "marker_type": "A", "lat": 32.44874, "long": -99.73314, "count": 12 },
+    "test2": { "marker_type": "B", "lat": 32.4487, "long": -99.21314, "count": 4 },
+    "test3": { "marker_type": "C", "lat": 39.4487, "long": -94.21314, "count": 6 },
+    "test4": { "marker_type": "D", "lat": 33.4487, "long": -92.21314, "count": 3 },
+    "test5": { "marker_type": "E", "lat": 31.4487, "long": -91.21314, "count": 16 }
+}

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'NeutraTextBold';
+    src: url('include/fonts/NeutraTextBold.eot');
+    src: url('include/fonts/NeutraTextBold.eot') format('embedded-opentype'),
+         url('include/fonts/NeutraTextBold.woff2') format('woff2'),
+         url('include/fonts/NeutraTextBold.woff') format('woff'),
+         url('include/fonts/NeutraTextBold.ttf') format('truetype'),
+         url('include/fonts/NeutraTextBold.svg#NeutraTextBold') format('svg');
+}
+body {font-size: 16px; line-height: 24px; font-weight: 400; font-family: 'Raleway'; color: #000;   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+img {max-width: 100%; height:auto;}
+h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; margin-bottom: 15px; line-height: 1.2; font-weight: 700; color: inherit; }
+h1 {font-size: 56px;}
+h2 {font-size: 50px;}
+h3 {font-size: 50px; line-height: 60px; margin-bottom: 10px; color: #CE3436;text-transform: uppercase; letter-spacing: 4px; font-weight: 800;}
+h4 { font-size: 25px; line-height: 30px; color: #ADADAD;font-weight: 500; letter-spacing: 2px;margin-bottom: 30px;}
+h5 { font-size: 18px; line-height: 1.4; }
+h6 { font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin: 0 0 10px }
+p { margin: 0px; padding: 0px; margin-bottom: 25px; }
+strong {font-weight: 600;}
+b {font-weight: 700;}
+p:last-child {margin-bottom: 0;}
+.mar-40 {margin-bottom: 40px !important;}
+.mar-30 {margin-bottom: 30px !important;}
+.no-mar {margin: 0 !important;}
+.color-text {color: #CE3436 !important;}

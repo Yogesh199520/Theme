@@ -1,0 +1,1 @@
+<?php/*==============================*/// @package SketchMesh// @author SLICEmyPAGE/*==============================*/?><form class="search" method="get" action="<?php echo esc_url(home_url('/')); ?>" role="search">    <input class="form-control" type="search" name="s" required="required" placeholder="Search"></form>

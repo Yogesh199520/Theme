@@ -1,0 +1,108 @@
+[02-Feb-2021 01:48:51 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[02-Feb-2021 09:31:19 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[02-Feb-2021 21:33:41 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[03-Feb-2021 01:48:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[03-Feb-2021 09:40:22 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[03-Feb-2021 21:46:31 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[04-Feb-2021 01:48:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[04-Feb-2021 09:54:55 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[04-Feb-2021 21:59:34 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[05-Feb-2021 01:49:50 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[05-Feb-2021 10:04:12 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[05-Feb-2021 22:08:30 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[06-Feb-2021 01:49:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[06-Feb-2021 10:14:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[06-Feb-2021 22:16:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[07-Feb-2021 01:52:19 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[07-Feb-2021 10:24:20 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[07-Feb-2021 22:27:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[08-Feb-2021 01:49:49 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[08-Feb-2021 07:00:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[08-Feb-2021 12:28:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[08-Feb-2021 14:10:50 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[08-Feb-2021 16:43:01 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[08-Feb-2021 19:11:28 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[08-Feb-2021 21:43:50 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[08-Feb-2021 22:57:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
+[09-Feb-2021 02:00:22 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sketchme/public_html/wp-content/themes/sketchmesh/index.php on line 11
