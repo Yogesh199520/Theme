@@ -1,0 +1,59 @@
+.cta-container{background:#F8F6EB;}
+.cta-content{}
+.cta-box{width: 33.333%;text-align: center;padding: 40px;min-height: 290px;position: relative;}
+.cta-icon{margin-bottom: 22px;height: 80px;}
+.cta-icon img{max-height: 100%; max-width: 100%; object-fit: contain;}
+.cta-box h4{font-size: 30px;line-height: 1;margin-bottom: 15px;letter-spacing: 0;}
+.cta-box:hover{background:#E8E5D6; color: inherit;}
+.cta-box:before{content: '';position: absolute;top: 50%;left: 0;border-left: solid 0px #F8F6EB;border-top: solid 22px transparent;border-bottom: solid 22px transparent;margin-top: -11px; transition: all 0.3s ease-in;}
+.cta-box:after{content: '';position: absolute;top: 50%;right: 0;border-right: solid 0px #F8F6EB;border-top: solid 22px transparent;border-bottom: solid 22px transparent;margin-top: -11px; transition: all 0.3s ease-in;}
+.cta-box:hover:before{border-left-width: 22px;}
+.cta-box:hover:after{border-right-width: 22px;}
+
+
+@media (min-width:768px){
+.cta-content.type2 .cta-box{width: 50%; padding: 44px; padding-left: 140px; min-height: auto; align-items: flex-start !important; text-align: left;}
+.cta-content.type2 .cta-icon{margin: 0; position: absolute; left: 40px; top: 38px; width: 70px; height: auto;}
+.cta-content.type2 .cta-icon img{height: auto; width: 100%;}
+.cta-content.type2 .cta-box h4{margin-bottom: 20px;}
+}
+
+@media (min-width:992px){
+.cta-content.type2 .cta-box{padding-left: 200px;}
+.cta-content.type2 .cta-icon{left: 66px; width: 90px;}
+}
+
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+.cta-content{width: calc(100% + 60px); margin-left: -30px;}
+.cta-box{padding: 40px 20px;}
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.cta-content{width: 100%; margin: 0;}
+.cta-content .slick-track{display: flex;}
+.cta-box{padding: 45px 40px 65px;height:auto;}
+.cta-icon{margin-bottom: 40px; height: 70px;}
+.cta-icon img{height: 100%;}
+.cta-box h4{margin-bottom: 10px;}
+.cta-content .slick-dots{bottom: 23px;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 

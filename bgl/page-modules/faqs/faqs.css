@@ -1,0 +1,45 @@
+.faqs-content .card-header .panel-title{padding: 15px 0;font-size: 18px;font-weight: 700;line-height:24px;color:var(--black-color)333;text-align:left;margin-bottom: 0px;padding-right: 24px !important;font-family: var(--secondary-font);text-transform: none;letter-spacing: 0;}
+.faqs-content .card-header{padding: 0;  border: 0;  cursor: pointer; background: transparent;}
+.faqs-content .accordion-panel .panel-body{background-color:#a6cb64; font-size:16px; line-height:26px; padding:30px 60px 30px 33px;}
+.faqs-content .accordion-panel .panel-heading{background-color:#7cbd64;}
+.faqs-content .accordion > .card{border: none;border-radius: 0;border-bottom: 1px solid #cbcbcb;padding: 0 30px;margin-bottom: 24px;border-top: 1px solid #cbcbcb;}
+.faqs-content .card .card-header .panel-title{position: relative;}
+.faqs-content .card .card-header .panel-title:before{content:"\f067";font-family:'font Awesome 5 Free';font-size:20px;color: var(--primary-color);padding: 0;position:absolute;right: 0px;top:15px;}
+.faqs-content .card .card-header .panel-title[aria-expanded="false"]:before{content:"\f067";}
+.faqs-content .card .card-header .panel-title[aria-expanded="true"]:before{content:"\f068";}
+.faqs-content .card-body{padding: 0;}
+.faqs-content .card-body-content{padding-bottom: 15px;padding-top: 0;font-size: 18px;font-family: var(--secondary-font); padding-right: 70px;}
+.faqs-content .cta-container{padding: 50px 0 0; text-align: center;color:var(--black-color)333;}
+.faqs-content .accordion .card:last-child{margin-bottom: 0;}
+
+
+.faqs-content + .faqs-content{margin-top: 80px;}
+.faqs-content .heading{margin-bottom: 20px;}
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.faqs-content .accordion > .card{padding: 0;}
+.faqs-content .card-header .panel-title{font-size: 16px;}
+.faqs-content .card-body-content{font-size: 16px; padding-right: 0;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 

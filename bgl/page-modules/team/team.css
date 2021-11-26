@@ -1,0 +1,82 @@
+.member-list{width: calc(100% + 30px);margin-left: -15px;margin-bottom: -62px;}
+.member-item{padding:0 15px;width: 25%;margin-bottom: 62px;}
+.member-box{height: 100%; width: 100%;}
+.member-img{width: 100%;padding-bottom: 122.5%;position: relative;}
+.member-img img{width: 100%; height: 100%; position: absolute; left: 0; top: 0; object-fit: cover; object-position: top;}
+.member-img:before{content: ''; width: 100%; height: 13px; background:var(--primary-color); position: absolute; left: 0; bottom: 0; z-index: 9;}
+.member-details{padding: 20px 18px;}
+.member-details h5 {font-size: 20px;font-weight: 700;line-height: 28px;margin-bottom: 0;text-transform: none;letter-spacing: 0;color: var(--black-color);position: relative;padding-right: 40px;}
+.member-details h5:before{content: '';width: 27px;height: 27px;background: url(../../include/images/plus-circle-icon.svg) no-repeat center/cover;position: absolute;top: -1px;right: -5px;}
+.member-details h5 span{font-weight: 400;display: block;margin-bottom: 20px;line-height: 1;font-size: 16px;}
+.member-details h6 {font-size: 16px;font-weight: 400;line-height: 21px;margin-bottom: 0;color: var(--green-color);text-transform: none;color: var(--third-color);letter-spacing:-0.25px;}
+.affiliate-member-list .member-img{padding-bottom: 107%;}
+a.member-box:hover{transform: translateY(-5px);}
+.member-details-popup{width: 100%; padding: 90px 0;}
+.member-popup-upper{flex-direction: row-reverse;}
+.member-popup-left{width: 240px;}
+.member-popup-img, .member-popup-img img{width: 100%;}
+.member-popup-right{width: calc(100% - 240px);padding-right: 80px;}
+.member-popup-head{margin-bottom: 35px;}
+.member-popup-head h5 {font-size: 28px;font-weight: 700;line-height: 28px;margin-bottom: 6px;text-transform: none;letter-spacing: 0;color: var(--black-color);}
+.member-popup-head h5 span{font-weight: 400;display: block;margin-bottom: 20px;line-height: 1;font-size: 16px;}
+.member-popup-head h6 {font-size: 20px;font-weight: 400;line-height: 28px;margin-bottom: 0;color: var(--green-color);text-transform: none;color: var(--black-color);letter-spacing: 0;text-transform: uppercase;}
+.member-popup-body{font-family: var(--primary-font);line-height: 1.2;font-size: 20px;}
+.member-popup-lower .member-popup-left h5{text-align: right;color: var(--third-color);font-size: 24px;line-height: 1;margin: 0;letter-spacing: 0;}
+.member-social-links{margin-top: 40px;}
+.member-social-links li{margin-right: 16px;}
+.member-social-links li a{width: 50px;height: 50px;background: var(--white-color);color: var(--primary-color);text-align: center;display: flex;align-items: center;justify-content: center;font-size: 30px;}
+.member-social-links li a:hover{background: var(--third-color);}
+.member-social-links li:last-child{margin-right: 0;}
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+.member-item{width: 33.333%;}
+.mfp-arrow-left{left: 30px; margin-left: 0;}
+.mfp-arrow-right{right: 30px; margin-right: 0;}
+.mfp-close-btn-in .mfp-close{margin-right: 0;top: 5px;right: 20px;}
+
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+.member-item{width:50%;}
+.mfp-arrow-left{top: 40px;left: 30px;}
+.mfp-arrow-right{top: 40px;right: auto;left: 83px;}
+
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.member-list.member-slider{margin-bottom: 0; width: calc(100% + 45px);}
+.member-item{margin: 0;}
+.member-slider .slick-list{padding-right: 60px;}
+a.member-box:hover{transform: translateY(0px);}
+.mfp-container, .mfp-auto-cursor .mfp-content{align-items: flex-start;}
+.member-details-popup{padding: 90px 0 40px;}
+.member-popup-upper .member-popup-left{width: 100%;}
+.member-popup-upper .member-popup-right{width: 100%; padding: 0; padding-top: 35px;}
+.member-popup-head{margin-bottom: 35px;}
+.member-popup-lower{justify-content: space-between;}
+.member-popup-lower .member-popup-left{width: auto;}
+.member-popup-lower .member-popup-right{width: auto; padding-left: 10px;}
+.member-popup-upper{margin-bottom: 40px;}
+
+
+
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 
+
+
+

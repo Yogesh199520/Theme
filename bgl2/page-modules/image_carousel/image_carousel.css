@@ -1,0 +1,50 @@
+.carousel-image-slide {position: relative;}
+@media (min-width:992px) {
+    .img-carousel-text, .img-carousel-text-slider.slick-slider .slick-list, .img-carousel-text-slider.slick-slider .slick-track { width: 100%; }
+    .img-carousel-text-slider.slick-slider .slick-track, .img-carousel-text-slider.slick-slider .slick-list { transform: none !important; }
+    .img-carousel-text-slider.slick-slider .slick-track { display: flex; justify-content: space-between; }
+    .img-carousel-text-slide { width: auto !important; }
+    .img-carousel-text-slider.slick-slider .slick-list { overflow: visible; }
+}
+.img-carousel-text-slider.slick-slider .slick-list{overflow:visible;}
+.img-carousel-text-slide{text-align: center; padding: 40px 10px; position: relative; min-height: 120px; }
+.img-carousel-text-slide .btn { color: var(--secondary-color); background-color: transparent; border-color: var(--secondary-color); min-width: 170px; }
+.slick-current.img-carousel-text-slide .btn{background: var(--secondary-color); color:#fff;}
+.img-carousel-text-slide:before{position: absolute; content: ''; bottom:100%; left: 50%; transform: translateX(-50%);  border-bottom: solid 0px var(--secondary-color); border-left: solid 12px transparent; border-right: solid 12px transparent; transition: all 0.2s ease-in;display: none; }
+.slick-current.img-carousel-text-slide:before{border-bottom-width: 12px;}
+.img-carousel-img-slider .slick-prev { left: 85px; }
+.img-carousel-img-slider .slick-next { right: 85px; }
+.img-carousel-image { display: none; }
+.img-carousel-image#carousel-gal1 { display: block; }
+/* ======================= IMG_CAROUSEL PAGE END ========================= */
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width:991.98px) {
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+================================================= */
+@media (max-width:767.98px) {
+    .img-carousel-img-slider .slick-prev { left: 10px; }
+    .img-carousel-img-slider .slick-next { right: 10px; }
+    .img-carousel-lower { background-color: var(--secondary-color); }
+    .img-carousel-text-slide .btn { color: #fff; background-color: transparent; border: none; }
+    .img-carousel-text-slide { min-height: 94px; padding: 30px 15px; }
+    .img-carousel-text-slide:before { display: block; }
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 

@@ -1,0 +1,54 @@
+.contact-details-list{font-size: 25px;line-height: 1.4; letter-spacing: 0.5px;padding-top: 28px;}
+.contact-details-list li{margin-bottom: 40px;}
+.contact-details-list li:last-child{margin-bottom: 0;}
+.contact-details-box{padding-left: 60px;position: relative;} 
+.contact-detail-icon{width: 30px;position: absolute;top: 4px;left: 0;text-align: center;font-size: 36px;line-height: 1.1;}
+.contact-details-list li.small-icon .contact-detail-icon{font-size:26px; line-height: 1.3;}
+.contact-details-list li .map-link{text-decoration: underline;}
+.contact-details-list li .map-link:hover{text-decoration: none;}
+.contact-details-box address{margin: 0;}
+
+.wpcf7-list-item{margin: 0;}
+.error-container { min-height: calc(100vh - 374px); position: relative; z-index: 99; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+.embed-container { position: relative; padding-bottom: 56.25%; overflow: hidden; max-width: 100%; height: auto; }
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing { border-color: #f00; position: relative; }
+div.wpcf7 form.wpcf7-form span.ajax-loader { width: 24px; height: 24px; background-size: 20px; position: absolute; right: 0; margin: 0 15px; top: 50%; margin-top: -12px; z-index: 9; opacity: 1; }
+span.wpcf7-not-valid-tip {top: 0;right: 0;padding: 0;bottom: auto;/* background: #f00; */color: #f00;font-weight: bold;font-size: 12px;line-height: 1.3;letter-spacing: 0;position: absolute;top: 100%;margin-top: 0;padding: 0;border-radius: 0;}
+.wpcf7-form-control-wrap { position: static; }
+.form-control.wpcf7-not-valid { border-color: #f00; }
+div.wpcf7-response-output {margin: 30px 0 0px !important;background: rgb(255 0 0);border-width: 0px !important;border-radius: 0;color: #fff !important;font-size: 15px !important;line-height: 20px;padding: 10px 15px !important;border-style: solid !important;border-color: #fff !important;font-weight: 700;text-align: center;}
+.wpcf7 form.sent .wpcf7-response-output { border-color: var(--third-color) !important; background: var(--third-color); }
+.edit-post-link, .edit-post-link:focus, .edit-post-link:hover { position: fixed; bottom: 0px; left: 0px; z-index: 99999; width: auto; line-height: 20px; background: #055468; box-shadow: 1px -1px 12px rgba(0, 0, 0, 0.2) !important; text-align: center; font-size: 13px;/* padding: 12px; */ border-radius: 0%; width: 50px; height: 50px; line-height: 50px; font-size: 20px; color: #fff; }
+
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+.contact-details-list{font-size: 22px; letter-spacing: 0;}
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+    .contact-details-list{padding-top: 0; margin-bottom: 35px;}
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.contact-details-list{font-size: 15px; line-height: 25px;  letter-spacing: 0;}
+.contact-details-list li{margin-bottom: 25px;}
+
+.contact-details-list li.small-icon .contact-detail-icon{font-size: 22px; top: -1px;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 

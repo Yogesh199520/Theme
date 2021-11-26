@@ -1,0 +1,36 @@
+.stats-list{width: calc(100% + 30px); margin-left: -15px;}
+.stats-item{width: 33.333%; text-align: center; padding: 0 15px;}
+.stats-icon{margin-bottom: 45px; display: flex; justify-content: center;}
+.stats-icon img{width: auto; height: 115px; object-fit: contain;}
+.stats-item h3{color: var(--secondary-color);letter-spacing: 0;font-size: 65px;line-height: 1;margin-bottom: 18px;}
+.stats-item h3 small{font-size: 30px;font-weight: 700;text-transform: none;padding-left: 10px;}
+.stats-item h6{font-weight: 400; letter-spacing: 0; margin: 0; font-size: 30px; line-height: 1;}
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.stats-box{padding-bottom: 35px;}
+.stats-list .slick-dots{bottom: -10px;}
+
+
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 

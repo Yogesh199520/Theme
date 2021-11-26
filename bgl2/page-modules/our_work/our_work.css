@@ -1,0 +1,46 @@
+.content-container.our-work-grid-container{overflow: hidden;}
+.owg-list { width: calc(100% + 6px); margin-left: -3px; margin-bottom: 44px; }
+.owg-list .owg-item { width: 33.333%; padding: 0 3px; margin-bottom: 6px;}
+.owg-list .owg-box {width: 100%;padding-bottom: 111%;position: relative;display: block;}
+.owg-list .owg-box .owg-img { position: absolute; width: 100%; height: 100%; object-fit: cover; top: 0; left: 0; overflow: hidden; }
+.owg-list .owg-box .owg-img::before{content: ''; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0,0,0,.3);z-index: 1; transition: all .3s ease-in;}
+.owg-list .owg-box:hover .owg-img::before { background-color: rgba(0, 0, 0, .4); }
+.owg-list .owg-box .owg-img img { width: 100%; height: 100%; object-fit: cover; transition: all .2s ease-in; }
+.owg-list .owg-box:hover .owg-img img{transform: scale(1.1);}
+.owg-list .owg-box:hover .btn{background:#fff; color:var(--black-color); border-color: #fff;}
+.owg-list .owg-box .owg-img .owg-content { padding: 20px; position: absolute; top: 0; left: 0; }
+.owg-list .owg-box .owg-content {position: absolute;top: 0;left: 0;width: 100%;height: 100%;padding: 30px;display: flex;flex-flow: column;align-items: center;justify-content: center;text-align: center;z-index: 999;}
+.owg-list .owg-box .owg-content h3 {font-size: 39px;line-height: 40px;margin-bottom: 8px;color: #fff;letter-spacing: -1px;}
+.owg-list .owg-box .owg-content p { font-size: 16px; margin-bottom: 24px; line-height: 20px; color: #fff;}
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+       .owg-list .owg-item { width: 50%;}
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width:991.98px) {
+
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+================================================= */
+@media (max-width:767.98px) {
+    .owg-list{width: 100%; margin-left: 0;}
+    .owg-list .owg-item { width: 100%; padding: 0; margin: 0; }
+    .owg-list .owg-box { padding-bottom: 0; }
+    .owg-list .owg-box .owg-content { position: relative; min-height: 446px; padding: 87px 20px; }
+    .owg-list .owg-box .owg-content h3 { margin-bottom: 16px; line-height: 44px; }
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width:385.98px) {
+    .owg-list .owg-box .owg-content h3 { font-size: 33px; line-height: 36px; margin-bottom: 10px; }
+    .owg-list .owg-box .owg-content p { margin-bottom: 20px; }
+}

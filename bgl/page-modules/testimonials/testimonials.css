@@ -1,0 +1,41 @@
+.testimonial-box {height: 100%;background: var(--white-color);padding: 35px 30px 24px 30px;position: relative;line-height: 20px;display: flex;flex-flow: column;font-size: 15px;}
+.testimonial-box:before{content: '';width: 70px;height: 60px;background: url(../../include/images/testimonial-icon.svg) no-repeat top/100% auto;position: absolute;bottom: 26px;right: 32px;}
+
+.testimonial-mid{margin-bottom: 30px;}
+.testimonial-lower{padding-right: 100px;}
+.testimonial-img {width: 82px;height: 82px;overflow: hidden;border-radius: 50%;position: relative;margin-bottom: 0;margin-right: 25px;}
+.testimonial-img:before{content: ''; width: 100%; height: 100%; position: absolute; left: 0; top: 0;box-shadow: 0 3px 6px rgba(0,0,0,0.6) inset; z-index: 2; border-radius: 50%;}
+.testimonial-img img {width: 100%; height: 100%; object-fit: cover; position: relative; z-index: 1;   }
+.testimonial-text{ font-style: italic;}
+.testimonial-by{line-height: 20px;font-size: 16px;}
+.testimonial-by span {font-weight: 700;display: block;}
+.testimonial-by small { font-size: 16px; font-weight: 300; }
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.testimonial-box{padding: 20px 30px 24px 24px;}
+.testimonial-img{width: 65px; height: 65px; margin: 0; margin-bottom: 25px;}
+.testimonial-mid{margin-bottom: 22px;}
+.testimonial-lower{padding-right: 0;}
+.testimonial-box:before{bottom: auto; top: 22px; right: 22px;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 

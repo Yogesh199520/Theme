@@ -1,0 +1,48 @@
+.contact-member-list{width: calc(100% + 30px); margin-left: -15px; margin-bottom: -30px;}
+.contact-member-item{padding:0 15px; width: 25%;margin-bottom: 30px;}
+.contact-member-box{background: #F8F6EB; height: 100%; width: 100%;}
+.contact-member-img{width: 100%;padding-bottom: 110.7%;position: relative;}
+.contact-member-img img{width: 100%; height: 100%; position: absolute; left: 0; top: 0; object-fit: cover; object-position: top;}
+.contact-member-details{padding: 22px 15px 15px;}
+.contact-member-details h5 {font-size: 18px;font-weight: 700;line-height: 24px;margin-bottom: 0;text-transform: none;letter-spacing: 0; color: var(--black-color);}
+.contact-member-details h5 span{font-weight: 400;display: block;margin-bottom: 20px;line-height: 1;font-size: 16px;}
+.contact-member-details h6 {font-size: 16px;font-weight: 400;line-height: 21px;margin-bottom: 0;color: var(--green-color);text-transform: none;color: var(--third-color);letter-spacing:-0.25px;}
+.contact-member-contact{padding: 0px 10px 15px 15px;}
+.contact-member-contact h6{font-size: 16px;font-weight: 400;line-height: 21px;margin-bottom: 0;color: var(--black-color);text-transform: none;color: var(--third-color);letter-spacing: 0;}
+.contact-member-contact h6 a{color: var(--black-color); word-break: break-all;}
+.contact-member-contact h6 a:hover{color: var(--third-color);}
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+.contact-member-item{width: 33.333%;}
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+.contact-member-item{width: 50%;}
+
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.contact-member-list{margin-bottom: 0;}
+.contact-member-list.slick-slider{padding: 0 30px;}
+.contact-member-item{margin-bottom: 0;}
+
+.contact-member-list.slick-slider .slick-prev{bottom: auto; top: 50%; left: 0px;}
+.contact-member-list.slick-slider .slick-next{bottom: auto; top: 50%; right: 0px;}
+
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 

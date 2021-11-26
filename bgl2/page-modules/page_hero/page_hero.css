@@ -1,0 +1,39 @@
+.page-hero-container{width: 100%; height: 550px; background: #333; color: #fff; position: relative; overflow: hidden;}
+.page-hero-img{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-size: cover; z-index: 0;}
+.page-hero-container:before{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.3); z-index: 1;}
+.page-hero-container .container{position: relative; z-index: 2;}
+.page-hero-content{text-align: center;text-transform: uppercase;font-size: 24px;line-height: 1.25;letter-spacing: -0.5px; padding-top: 40px; padding-bottom: 90px;}
+.page-hero-content h1{font-size: 60px;line-height: 1.2;margin-bottom: 10px;letter-spacing: -1px;}
+
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+.page-hero-content h1{font-size: 50px;}
+.page-hero-content{font-size: 22px;}
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.page-hero-container{height: calc(100vh - 80px); min-height: 300px;}
+.page-hero-content h1{font-size: 40px; margin-bottom: 30px;}
+.page-hero-content{font-size: 20px; padding-top: 30px; padding-bottom: 50px;}
+
+
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 
