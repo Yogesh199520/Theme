@@ -1,0 +1,32 @@
+[31-Oct-2021 01:43:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/archive.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/archive.php on line 1
+[31-Oct-2021 01:43:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/header.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/header.php on line 5
+[31-Oct-2021 01:43:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/404.php on line 1
+[31-Oct-2021 01:43:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/index.php on line 1
+[05-Nov-2021 00:51:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/index.php on line 1
+[05-Nov-2021 00:51:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/header.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/header.php on line 5
+[05-Nov-2021 00:51:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/404.php on line 1
+[05-Nov-2021 00:51:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/archive.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/ricciort/public_html/wp-content/themes/ricciorthodontics_presmult_child/archive.php on line 1
