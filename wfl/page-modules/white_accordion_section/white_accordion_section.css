@@ -1,0 +1,49 @@
+/* ================= white FAQ START ================= */
+.white-faqs-content .card{background: #fff;box-shadow: 2px 3px 6px rgba(0,0,0,.16); color:#000;}
+.white-faqs-content .card + .card { margin-top: 30px; }
+.white-faqs-content .card-header .panel-title{padding: 27px 42px;font-size: 30px;font-family: var(--primary-font-300);text-align:left;margin-bottom: 0px;padding-right: 70px !important;}
+.white-faqs-content .card-header{padding: 0;  border: 0;  cursor: pointer; background: transparent;}
+.white-faqs-content .accordion-panel .panel-body{background-color:#a6cb64; font-size:16px; line-height:26px; padding:30px 60px 30px 33px;}
+.white-faqs-content .accordion-panel .panel-heading{background-color:#7cbd64;}
+.white-faqs-content .accordion > .card{margin-bottom: 0;border: none;border-radius: 0;}
+.white-faqs-content .card .card-header .panel-title{position: relative;}
+.white-faqs-content .card .card-header .panel-title:before{content:"\f056";font-family:'font Awesome 5 Free';font-size: 30px;color: var(--primary-color);padding: 0;position:absolute;right: 24px;top: 50%;transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;-o-transition: all 0.2s ease-out;-webkit-transition: all 0.2s ease-out;-ms-transition: all 0.2s ease-out;transform: translateY(-50%);font-weight: 900;}
+.white-faqs-content .card .card-header .panel-title[aria-expanded="false"]:before{content:"\f055";}
+.white-faqs-content .card .card-header .panel-title[aria-expanded="true"]:before{content:"\f056";}
+.white-faqs-content .card-body{padding: 0;}
+.white-faqs-content .card-body-content{padding: 7px 65px 32px 39px;align-items: center;}
+.white-faq-list { font-size: 16px; line-height: 24px; font-family: var(--primary-font-300); }
+.white-faq-list li strong { text-transform: uppercase; font-family: var(--primary-font-700); }
+.white-faq-list li + li { margin-top: 27px; }
+/* ================= white FAQ End ================= *
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width:1199.98px) {
+}
+
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width:991.98px) {
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+================================================= */
+@media (max-width:767.98px) {
+    .white-faqs-content .card-header .panel-title { padding: 22px 20px; }
+    .white-faqs-content .card .card-header .panel-title:before { top: 19px; transform: none; right: 24px; }
+    .white-faqs-content .card-body-content {padding: 25px 20px 36px;flex-flow: column;padding-top: 0;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+====================================================== */
+@media (max-width:414.98px) {
+    .white-faqs-content .card .card-header .panel-title {min-height: 80px;font-size: 20px;line-height: 29px;padding-right: 50px !important;padding: 25px 20px;}
+    .white-faqs-content .card .card-header .panel-title:before {font-size: 24px;right: 13px;top: 24px;}
+}
+ 

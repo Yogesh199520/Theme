@@ -1,0 +1,61 @@
+/* =================  css Start ================= */
+.expertise-carousel-container { position: relative; padding: 100px 0; display: flex; align-items: center; min-height: 500px;}
+.expertise-content-inner{position:relative;z-index:99;color:#fff;}
+.expertise-text-list{width: calc(100% + 20px); margin-left: -10px;}
+.expertise-text-item{padding: 0 10px;}
+.expertise-text-item h3{font-size:30px;margin-bottom:17px;}
+.expertise-text-item p{font-family: var(--primary-font-600);}
+.expertise-img-slide-box { width: 100%; height: 100%; position: absolute; top: 0; left: 0;  background: #000;}
+.expertise-img-box:before{content: ''; width: 90%; height: 100%; position: absolute; left: 0; top: 0; background: #f00; z-index: 1; mix-blend-mode: multiply;  
+background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 100%);}
+.expertise-img-box, .expertise-img-box img { width: 100%; height: 100%; object-fit: cover; }
+.expertise-head { align-items: center; margin-bottom: 41px; }
+.expertise-head img { width: 71px; margin-right: 15px; }
+.expertise-head h1 { font-size: 40px; margin-bottom: 0; line-height: 40px; margin-top: 17px; }
+.expertise-img-slide .slick-prev {left: 50%; margin-left: -600px;}
+.expertise-img-slide .slick-next {right: 50%; margin-right: -600px;}
+.expertise-img-slide .slick-prev:before, .expertise-img-slide .slick-next:before { color: #fff; }
+.expertise-img-slide .slick-dots { bottom: 50px; }
+.expertise-img-slide .slick-dots li button { width: 20px; height: 20px; border-radius: 50%; }
+.expertise-img-slide, .expertise-img-slide .slick-list, .expertise-img-slide .slick-track { height: 100%; }
+.expertise-btn .btn+.btn{margin: 0;}
+/* ================= End ================= */
+
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+    .expertise-img-slide .slick-prev{left:15px; margin: 0;}
+    .expertise-img-slide .slick-next{right:15px; margin: 0;}
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width:767.98px) {
+    .expertise-carousel-container { flex-flow: column-reverse; padding: 0 0 50px; }
+    .expertise-head { background: #000; margin-bottom: 0; color: #fff; justify-content: center; padding: 20px; }
+    .expertise-head img { width: 54.63px; }
+    .expertise-head h1 { font-size: 30px; margin-top: 5px; line-height: 40px; }
+    .expertise-img-slide-box { position: relative; }
+    .expertise-img-box { position: relative; min-height: 60.5vw; display: flex !important; align-items: center; justify-content: center; z-index: 99; }
+    .expertise-img-box img { position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+    .expertise-img-box h3 { font-size: 30px; color: #fff; position: relative; margin-bottom: 0; z-index: 3; padding: 0 15%; text-align: center; }
+    .expertise-text-item { padding-top: 33px; color: #000; text-align: center; }
+    .expertise-text-item p { margin-bottom: 32px; }
+    .expertise-img-box:before{content: ''; width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: #000; opacity: 0.3; z-index: 2;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 

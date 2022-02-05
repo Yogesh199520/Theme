@@ -1,0 +1,46 @@
+.oss-list { width: calc(100%  + 30px); margin-left: -15px; display: flex; flex-wrap: wrap; }
+.oss-item { width: 50%; padding: 0 15px;}
+.oss-box { position: relative; display: block; height: 100%; min-height: 200px; }
+.oss-box::before {content: '';position: absolute;width: 100%;height: 100%;top: 0;left: 0;background: rgba(0, 0, 0, .05);z-index: 1; opacity: 0; transition: all 0.2s ease-in;}
+.oss-box:hover::before{opacity: 1;}
+.oss-box:hover{color: var(--black-color);}
+.oss-box .oss-content {height: 100%;padding: 34px 40px 30px;position: relative;font-size: 16px;line-height: 21px;font-family: var(--primary-font-600);z-index: 9;}
+.oss-box .oss-content h3 { font-size: 30px; margin-bottom: 19px; }
+.oss-box .oss-content p {/* max-width: 250px; */margin-bottom: 0;}
+.oss-box .oss-content .oss-cta {padding-top: 15px;} 
+.other-sector-slider-content .oss-list{margin-bottom: 0;} 
+.other-sector-slider-content .oss-list .oss-item{margin-bottom: 0;} 
+.other-sector-slider-content .oss-list  .slick-prev{left: -100px;}
+.other-sector-slider-content .oss-list  .slick-next{right: -100px;}
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width:1199.98px) {
+}
+
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width:991.98px) {
+    .other-sector-slider-content .oss-list { padding-bottom: 58px !important; }
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+================================================= */
+@media (max-width:767.98px) {
+    .oss-list .oss-item { width: 100%;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 414px)
+====================================================== */
+@media (max-width:413.98px){
+}

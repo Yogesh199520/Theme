@@ -1,0 +1,36 @@
+.other-expertise-list li + li{margin-top: 6px;}
+.other-expertise-list li a{font-size: 20px;line-height: 1.2;font-family: var(--primary-font-600);color: var(--purple-color);position: relative;padding-right: 30px;width: 100%;letter-spacing: -0.1px;}
+.other-expertise-list li a:after{content: '';position: absolute;right: 2px;top: 0px;width: 12px;height: 20px;background: url(../include/images/arrow-right.svg) no-repeat center/12px 20px;transition: all 0.2s ease-in;}
+.other-expertise-list li a span{transition: all 0.2s ease-in;}
+.other-expertise-list li a:hover span{box-shadow: 0 1px 0 var(--primary-color);}
+.other-expertise-list li a:hover:after{right: 5px;}
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.other-expertise-list li a{font-size: 18px;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 414px)
+====================================================== */
+@media (max-width:413.98px){
+}

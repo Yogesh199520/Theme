@@ -1,0 +1,45 @@
+.es-list { width: calc(100%  + 30px); margin-left: -15px; margin-bottom: -30px; display: flex; flex-wrap: wrap;}
+.es-item { width: 50%; padding: 0 15px; margin-bottom: 30px; }
+.es-box { position: relative; display: block; height: 100%; min-height: 240px;}
+.es-box::before {content: '';position: absolute;width: 100%;height: 100%;top: 0;left: 0;background: rgba(0, 0, 0, .4);z-index: 2;}
+.es-img { width: 100%; height: 100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0; overflow: hidden; z-index: 1; }
+.es-img img { width: 100%; height: 100%; object-fit: cover; transition: all .2s ease-in;  }
+.es-box:hover .es-img img{transform: scale(1.05);}
+.es-box .es-content { height: 100%; padding: 42px 40px 34px;position: relative;color: #fff;font-size: 16px;line-height: 21px;font-family: var(--primary-font-600);z-index: 9;}
+.es-box .es-content h3 { font-size: 30px; margin-bottom: 19px; }
+.es-box .es-content p { max-width: 250px; margin-bottom: 0; }
+.es-box .es-content .es-cta { padding-top: 28px; }
+.es-box:hover .read-more-btn { text-decoration: underline; }
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width:1199.98px) {
+}
+
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width:991.98px) {
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+================================================= */
+@media (max-width:767.98px) {
+.es-item { width: 100%;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+====================================================== */
+@media (max-width: 575.98px){
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 414px)
+ ====================================================== */
+@media (max-width:413.98px) {
+}
+ 

@@ -1,0 +1,51 @@
+.ost-list{width:calc(100% + 30px);margin-left:-15px;display:flex;flex-wrap:wrap;}
+.ost-list .ost-item{padding:15px;width:33.33%;}
+.ost-card{background:#000;box-shadow:0 3px 6px rgba(0,0,0,.16);height: 100%;position: relative;padding-bottom: 70px;}
+.ost-card-img{width:100%;border-bottom:2px solid #fff;position: relative;padding-bottom: 62%;}
+.ost-card-img img{width:100%;height:100%;object-fit:cover;position: absolute;left: 0;top: 0;}
+.ost-card-content{padding:28px 30px;color:#fff!important;}
+.ost-card-content h3{margin-bottom:10px;line-height:35px;}
+.ost-card-content h6{font-size:18px;margin-bottom:21px;}
+.ost-card-contact-list{width: calc(100% + 15px);}
+.ost-card-contact-list > li + li{margin-top:15px;}
+.ost-card-contact-list > li .ost-card-contact-box{padding-left:40px;position:relative;font-family:var(--primary-font-700);font-size:20px;word-break:break-all; letter-spacing: -0.25px;}
+.ost-card-contact-list > li .ost-card-contact-box span{position:absolute;left:0;width:22px;text-align:center;font-size:18px;top:50%;transform:translateY(-50%);color:var(--primary-light-color);}
+.ost-card-contact-list > li .ost-card-contact-box a:hover{text-decoration:underline;color:#fff;}
+.ost-card-cta{position: absolute;left: 0;bottom: 0;padding: 0 30px 28px 30px;width: 100%;}
+.ost-list .slick-prev{left:-55px;}
+.ost-list .slick-next{right:-55px;}
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width:1199.98px){
+.ost-card-content{padding:28px 25px 28px 75px;}
+.ost-card-content h3{padding-right: 50px;}
+.ost-list .slick-prev{left:32px; top: calc(28vw + 70px);}
+.ost-list .slick-next{right:32px; top: calc(28vw + 70px);}
+.ost-list .slick-prev:before,.ost-list .slick-next:before{color:#fff;}
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width:991.98px){
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width:767.98px){
+    .ost-list{width:calc(100% + 90px);margin-left:-45px;}
+    .ost-card-img{padding-bottom: 55.5%;}
+    .ost-card-contact-list > li .ost-card-contact-box{font-size: 18px;}
+    .ost-card-cta{padding: 0 50px 28px 50px;}
+    .ost-list .slick-prev{left:32px; top: calc(55vw + 70px);}
+.ost-list .slick-next{right:32px; top: calc(55vw + 70px);}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width:575.98px){
+}

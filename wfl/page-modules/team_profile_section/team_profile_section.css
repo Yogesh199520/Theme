@@ -1,0 +1,58 @@
+.team-member-single-content { font-size: 16px; line-height: 25px; font-family: var(--primary-font-300); }
+.team-member-single-content p:first-child{ font-size: 30px; line-height: 40px; margin-bottom: 33px; }
+.team-membar-card { background: #000; color: #fff; }
+.team-card-img {height: 0;position: relative;padding-bottom: 63%;}
+.team-card-img img {width: 100%;height: 100%;object-fit: cover;position: absolute;left: 0;top: 0;}
+.team-card-content {padding: 44px 15px 38px 30px;}
+.team-card-content h3 { margin-bottom: 10px; line-height: 36px; }
+.team-card-content h6 {font-size: 18px;margin-bottom: 36px;padding-right: 10%;}
+.team-card-contact-list{font-size: 20px; word-break: break-all;}
+.team-card-contact-list > li + li {margin-top: 15px;}
+.team-card-contact-list > li .team-card-contact-box {padding-left: 38px;position: relative;font-family: var(--primary-font-700);}
+.team-card-contact-list > li .team-card-contact-box span { position: absolute; left: 0; width: 22px; text-align: center; font-size: 18px; top: 50%; transform: translateY(-50%); color: var(--primary-light-color);}
+.team-card-contact-list > li .team-card-contact-box a { color: #fff; }
+.team-card-contact-list > li .team-card-contact-box a:hover { text-decoration: underline; }
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width:1199.98px) {
+}
+
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width:991.98px) {
+    .team-member-single-content p:first-child{ font-size: 25px; line-height: 30px; margin-bottom: 16px; }
+    .team-card-content { padding: 40px 25px; }
+    .team-card-contact-list > li .team-card-contact-box { font-size: 14px; padding-left: 40px; }
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+================================================= */
+@media (max-width:767.98px) {
+    .team-card-img {padding-bottom: 56%;}
+    .team-member-single-content {margin-bottom: 48px; }
+    .team-member-single-content p { margin-bottom: 20px; }
+    .team-membar-card { width: calc(100% + 60px); margin-left: -30px; }
+    .team-card-content { padding: 44px 30px 40px 50px; }
+    .team-card-contact-list > li .team-card-contact-box { font-size: 20px; }
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+====================================================== */
+@media (max-width: 575.98px){
+}
+
+
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 414px)
+ ====================================================== */
+@media (max-width:413.98px) {
+    .team-card-content { padding: 40px 25px; }
+    .team-card-contact-list > li .team-card-contact-box { font-size: 16px; }
+}
+ 

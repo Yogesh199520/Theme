@@ -1,0 +1,44 @@
+.image-text-50-50-container { min-height: 500px; display: flex; align-items: center; position: relative; }
+.image-text-50-50-media { width: calc(50% - 15px); height: 100%; top: 0; left: 0; position: absolute; }
+.image-text-50-50-container .img-text-move { justify-content: end; }
+.image-text-50-50-container.img-right .img-text-move { justify-content: start; }
+.image-text-50-50-media{overflow: hidden;}
+.image-text-50-50-media img, .image-text-50-50-media iframe {width: 100%;height: 100%;object-fit: cover;border: none;transition: all .3s ease-in;}
+.image-text-50-50-content { padding: 0 100px; font-size: 16px; line-height: 22px; }
+.image-text-50-50-content h3 { margin-bottom: 30px; font-size:30px;}
+.image-text-50-50-content .img-text-cta {margin-top: 33px;}
+.img-right .image-text-50-50-media { right: 0; left: auto; }
+.img-zoom .image-text-50-50-media img, .img-zoom .image-text-50-50-media iframe{transform: scale(1.05);}
+/* ==========================================
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width:1199.98px) {
+    .image-text-50-50-content { padding: 0 75px; }
+}
+
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width:991.98px) {
+    .image-text-50-50-content { padding: 0 40px; }
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+================================================= */
+@media (max-width:767.98px) {
+    
+    .image-text-50-50-container { padding-top: 0 !important; flex-flow: column-reverse; justify-content: start; min-height: auto; }
+    .image-text-50-50-media { position: relative; width: 100%; height: 61%; }
+    .image-text-50-50-content { padding: 28px 0 0; }
+    .image-text-50-50-content h3 { margin-bottom: 14px; }
+
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+====================================================== */
+@media (max-width:414.98px) {
+}
+ 

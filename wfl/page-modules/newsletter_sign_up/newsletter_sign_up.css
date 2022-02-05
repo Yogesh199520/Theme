@@ -1,0 +1,45 @@
+.newsletter-form-upper{margin-bottom: 28px;}
+.newsletter-form-upper h4{margin: 0;font-size: 40px;line-height: 1.2;margin-right: 30px;}
+.newsletter-form{flex-grow: 1;border-radius: 20px; padding: 2px;max-width: 368px;margin-left: auto;background: #fff;}
+.newsletter-form .form-control{border: 0;padding: 5px 15px;height: 36px;font-size: 16px;line-height: 26px;}
+.newsletter-form .btn{width: 100px;height: 36px;min-width: auto;line-height: 18px;}
+.newsletter-form-lower .form-check{margin: 0;}
+.newsletter-form-lower .wpcf7-list-item-label{font-size: 16px;}
+.newsletter-form-lower .form-check label{margin-top: 0;padding-right: 0;}
+.newsletter-form-lower .form-check input + .wpcf7-list-item-label:before, .newsletter-form-lower .form-check input + .wpcf7-list-item-label:after{top: 0;}
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+.newsletter-form-upper{flex-flow: column;}
+.newsletter-form-upper h4{margin: 0; margin-bottom: 15px; text-align: center;}
+.newsletter-form{width: 100%; margin: 0 auto; max-width: 500px;}
+
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+
+
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 414px)
+====================================================== */
+@media (max-width:413.98px){
+}

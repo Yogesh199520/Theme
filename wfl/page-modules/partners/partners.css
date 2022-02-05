@@ -1,0 +1,41 @@
+.partners-list{width: calc(100% + 30px); margin-left: -15px; margin-bottom: -40px;}
+.partners-item{width: 20%; padding: 0 15px; margin-bottom: 40px;}
+.partner-box{width: 100%;}
+.partner-img{width: 100%; height: 0; padding-bottom: 100%; position: relative; margin-bottom: 30px;}
+.partner-img img{width: 100%; height: 100% ;position: absolute; object-fit: cover; object-position: top; left: 0; top: 0;}
+.partner-box h3{font-size: 30px; line-height: 1.2; margin-bottom: 0; padding-right: 10%;}
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+.partners-item{width: 25%;}
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.partners-list{width: calc(100% + 45px); margin-bottom: 0; padding-bottom: 70px;}
+.partners-item{width: 290px; margin-bottom: 0;}
+.partner-box h3{padding: 0 10%; text-align: center;}
+.partner-img{margin-bottom: 20px;}
+
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 414px)
+====================================================== */
+@media (max-width:413.98px){
+}

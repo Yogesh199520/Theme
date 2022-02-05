@@ -1,0 +1,40 @@
+.single-hero-container{min-height: 400px; position: relative;}
+.single-hero-text{padding-right: 50px;}
+.single-hero-text h1{font-size: 60px;line-height: 1;margin-bottom: 15px;}
+.single-hero-text h2{font-size: 20px; line-height: 1.2; margin-bottom: 0; font-family: var(--primary-font-700);}
+.single-hero-img{width: calc(50% - 15px); height: 100%; position: absolute; right: 0; top: 0; background: #333;}
+.single-hero-img img{width: 100%; height: 100%; object-fit: cover; object-position: top;}
+
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.single-hero-img{position: relative; width: 100%; right: auto; top: auto;}
+.single-hero-text{padding: 40px 20px 40px 0;}
+
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 414px)
+====================================================== */
+@media (max-width:413.98px){
+}

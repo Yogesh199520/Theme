@@ -1,0 +1,46 @@
+.page-signpost-list{margin-left: -15px; width: calc(100% + 30px);}
+.page-signpost-item{width: 50%; padding: 0 15px;}
+.page-signpost-box{width: 100%;height: 100%;background: #fff;padding: 30px 40px 22px;padding-right: 140px;font-family: var(--primary-font-300);font-size: 20px;line-height: 1.3;position: relative;color: #000;}
+.page-signpost-box h3{text-transform: uppercase;margin-bottom: 17px;font-size: 30px;line-height: 1;}
+.psbox-icon{width: 100px;position: absolute;top: 44px;right: 34px;bottom: 44px; display: flex;align-items: center;}
+.psbox-icon img{filter: brightness(0);width: 100%;transition: all 0.3s ease-in;height: 100%;object-fit: contain;}
+.psbox-cta{padding-top: 3px;}
+.page-signpost-box:hover{color: inherit;}
+.page-signpost-box:hover .psbox-icon img{filter: brightness(1);}
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.page-signpost-box{padding: 34px 28px 22px; padding-right: 110px; font-size: 16px;}
+.page-signpost-box p{padding-right: 30px; margin-bottom: 12px;}
+.psbox-icon{width: 80px; top: 82px;right: 38px;bottom: 34px;}
+.psbox-icon img{object-position: top;}
+.page-signpost-list{padding-bottom: 70px;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 414px)
+====================================================== */
+@media (max-width:413.98px){
+    .page-signpost-box{padding: 30px 20px;}
+    .psbox-icon{width: 60px; bottom: auto; right: 20px;}
+    .page-signpost-box p{padding-right:70px;}
+}

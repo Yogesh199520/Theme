@@ -1,0 +1,47 @@
+.testimonials-container{color:var(--blue-color);}
+.testimonials-container blockquote{font-size:30px;line-height:36px;font-family:var(--primary-font-600);margin-bottom:0;font-style:italic;margin-bottom:32px;}
+.testimonials-container .quote-by{font-family:var(--primary-font-800);font-style:normal;font-size:20px;}
+.testimonial-box{padding-top:80px;position:relative;padding-right:50px;}
+.testimonial-box:before{content:'';width:54px;height:40px;background:url(../../include/images/quote-icon-left.png) no-repeat left top/100% auto;position:absolute;left:0;top:0;}
+.testimonial-box:after{content:'';width:54px;height: 40px;background:url(../../include/images/quote-icon-right.png) no-repeat left top/100% auto;position:absolute;right:93px;bottom:15px;}
+.testimonial-list{width:calc(100% + 30px);margin-left:-15px;}
+.testimonial-item{padding:0 15px;}
+.testimonial-content{padding:0 80px;position:relative;text-align:center;}
+.testimonial-content:before{content:'';width:54px;height:40px;background:url(../../include/images/quote-icon-left.png) no-repeat left top/100% auto;position:absolute;left:0;top:0;}
+.testimonial-content:after{content:'';width:54px;height: 40px;background:url(../../include/images/quote-icon-right.png) no-repeat left top/100% auto;position:absolute;right:0;top:10px;}
+.testimonial-content blockquote{margin-bottom:0;}
+.testimonial-list .slick-prev{left:50%;margin-left:-600px;}
+.testimonial-list .slick-next{right:50%;margin-right:-600px;}
+
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width:1199.98px){
+    .testimonial-list .slick-prev{left:-150px;margin-left:0;}
+    .testimonial-list .slick-next{right:-150px;margin-right:0;}
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width:991.98px){
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width:767.98px){
+    .testimonial-box{padding:70px 0;}
+    .testimonials-container blockquote{margin-bottom:15px;}
+    .testimonial-box:after{right:0;bottom: 5px;}
+    .testimonial-list{padding-bottom:70px!important;}
+    .testimonial-content{padding:0;text-align:left;padding-top:65px;}
+    .testimonial-box-content{padding-bottom:70px;}
+    .testimonial-content:after{top:auto;bottom: 70px;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width:575.98px){
+}

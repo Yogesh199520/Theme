@@ -1,0 +1,49 @@
+/* ================= Home Page Start ================= */
+.hero-outer{position:relative; overflow: hidden;}
+.hero-container{position:relative;height:500px;  color:#fff; padding-bottom:0; z-index:10;}
+.hero-container .slick-list,.hero-container .slick-track,.hero-container > div{height:100%!important;}
+.hero-container .hero-slide{width:100%;height:100%;background-position:center center;background-size:cover;background-repeat:no-repeat;position:relative;}
+.hero-container .hero-slide:before{content:'';width:100%;height:100%;background:rgb(0 0 0 / 10%);position:absolute;left:0;top:0;right:0;top:0;z-index:1;}
+.hero-container .container{position:relative;z-index:2;} 
+.hero-box{font-size: 20px;line-height: 1.25; font-family: var(--primary-font-600); letter-spacing: -0.1px; padding: 30px 0; padding-left: 95px;}
+.hero-box .hero-heading{font-size: 70px;line-height: 1;font-weight:normal;margin-bottom: 20px;letter-spacing: -2px;} 
+.hero-box p{max-width: 435px;}
+.hero-container .slick-dots{bottom:50px;text-align:left;max-width:1200px;left:50%;transform:translateX(-50%);padding:0 103px; width: calc(100% - 170px);}
+.hero-image-slider { position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: 1; padding-bottom: 0; }
+.scroll-down {position: absolute;z-index:99;bottom: 42px;left: 50%;margin-left: -22px;cursor: pointer; width: 44px;}
+ 
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+.hero-box{padding-left: 0;}
+.hero-container .slick-dots{width: calc(100% - 30px); padding: 0 8px;}
+
+}
+
+
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+
+
+
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+.hero-outer{height: 100%; min-height: 440px;}
+.hero-container{height:100%;}
+.hero-box{padding: 0 0 85px 0;}
+.hero-container .slick-dots{bottom:85px;text-align:center; padding: 0 15px;} 
+}
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+
+} 

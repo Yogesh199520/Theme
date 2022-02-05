@@ -1,0 +1,48 @@
+.latest-insights-post-list { width: calc(100% + 30px); margin-left: -15px; display: flex; flex-wrap: wrap;}
+.latest-insights-post-item { width: 33.33%; padding: 0 15px; margin-bottom: 30px; }
+.latest-insights-post-box { display: block; background: #fff; color: #333 !important; height: 100%;}
+.latest-insights-post-img { width: 100%; height: 170px; overflow: hidden; }
+.latest-insights-post-img img { width: 100%; height: 100%; object-fit: cover; transition: all .2s ease-in; }
+.latest-insights-post-box:hover .latest-insights-post-img img{transform: scale(1.05);}
+.latest-insights-post-box:hover .read-more-btn {text-decoration: underline;}
+.latest-insights-post-content { padding: 28px 28px 22px; font-size: 22px; font-family: var(--primary-font-300); line-height: 25px; height: calc(100% - 170px);}
+.latest-insights-post-category { font-size: 16px; text-transform: uppercase; line-height: 20px; font-family: var(--primary-font-800); margin-bottom: 12px; }
+.latest-insights-post-content p { margin-bottom: 18px; }
+.latest-insights-post-date { font-size: 16px; font-family: var(--primary-font-700); line-height: 20px; margin-right: 0; }
+.latest-insights-post-bottom{margin-top: auto;}
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+.latest-insights-post-item{width: 100%;}
+.latest-insights-post-content { padding: 28px  20px 22px;}
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width:767.98px) { 
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width:575.98px) {
+}
+
+
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 414px)
+ ====================================================== */
+@media (max-width:413.98px) {
+.latest-insights-post-date{font-size: 14px;}
+.latest-insights-post-bottom .read-more-btn{font-size: 14px;}
+}
+

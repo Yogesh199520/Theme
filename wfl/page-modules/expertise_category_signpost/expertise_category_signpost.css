@@ -1,0 +1,38 @@
+.ec-list { width: calc(100%  + 30px); margin-left: -15px; margin-bottom: -29px; display: flex; flex-wrap: wrap; }
+.ec-item { width: 50%; padding: 0 15px; margin-bottom: 29px; }
+.ec-box { position: relative; display: flex; flex-flow: column; height: 100%; box-shadow: 0 3px 6px rgba(0, 0, 0, .16); padding: 31px 30px 22px 40px; color: #333 !important; }
+.ec-box .ec-content { font-size: 16px; line-height: 21px; font-family: var(--primary-font-600); margin-bottom: 20px; }
+.ec-box .ec-content h3 { font-size: 30px; margin-bottom: 6px; line-height: 30px; }
+.ec-box .ec-content p { margin-bottom: 0; padding-right: 10%; }
+.ec-box .ec-cta { margin-top: auto; }
+.ec-box:hover { background: var(--light-gray-color); } 
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width:1199.98px) {
+}
+
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width:991.98px) {
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+================================================= */
+@media (max-width:767.98px) {
+.ec-item { width: 100%; }
+.ec-box { padding: 26px 26px 20px; }
+.ec-box .ec-content h3 { font-size: 24px; margin-bottom: 2px; }
+.ec-box .ec-content p { padding: 0; }
+.ec-box .ec-content { margin-bottom: 5px;}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+====================================================== */
+@media (max-width:414.98px) {
+}
+ 

@@ -1,0 +1,43 @@
+.page-jump-item .page-jump-link {font-size: 16px;text-transform: uppercase;font-family: var(--primary-font-600);line-height: 77px;white-space: nowrap;padding: 0 5px;position: relative;padding-bottom: 1.5px;padding-top: 1.5px;}
+.page-jump-item.active .page-jump-link { font-family: var(--primary-font-800); color: var(--primary-color); }
+.page-jump-list.d-flex { overflow-x: auto; justify-content: space-between; }
+.page-jump-item .page-jump-link::before { content: ''; position: absolute; width: 100%; height: 3px; background: var(--primary-color); bottom: 0; left: 0; z-index: 99999; opacity: 0; visibility: hidden; transition: all .3s ease-in; }
+.page-jump-container { position: relative; }
+.page-jump-container::before { content: ''; position: absolute; width: 100%; height: calc(100% - 1.5px); background: var(--light-grey-color); }
+.page-jump-item.active .page-jump-link::before { opacity: 1; visibility: visible; }
+/* ========================================== 
+! Large devices (desktops, less than 1200px)
+=========================================== */
+@media (max-width: 1199.98px){
+}
+
+/*==========================================
+! Medium devices (tablets, less than 992px)
+========================================== */
+@media (max-width: 991.98px){
+}
+
+/* =================================================  
+ ! Small devices (landscape phones, less than 768px)
+ ================================================= */
+@media (max-width: 767.98px){
+
+.page-jump-list {
+    width: calc(100% + 60px);
+    padding: 0 15px;
+    margin-left: -30px;
+}
+.page-jump-item .page-jump-link::before{}
+
+.page-jump-item .page-jump-link {
+    line-height: 57px;
+    padding: 1.5px 15px;
+}
+}
+
+/* ======================================================
+ ! Extra small devices (portrait phones, less than 576px)
+ ====================================================== */
+@media (max-width: 575.98px){
+}
+ 
