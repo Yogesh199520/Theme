@@ -1,0 +1,230 @@
+/*
+Theme Name: Paradise
+Theme URI: https://slicemypage.com/
+Author: SLICEmyPAGE
+Author URI: https://slicemypage.com/
+Description: Delivery Service Available Serving Southern California 
+Version: 1.0.0
+Text Domain: Paradise
+Tags: accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, theme-options
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;outline:none !important;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+a {
+	text-decoration: none;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	color:#000;
+}
+a:hover, a:focus,a:visited {
+    color: #000;
+    text-decoration: none;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-weight: 700;line-height: 1.2;    margin-bottom: .5rem;
+}
+h1 {
+    font-size:40px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size:32px;
+}
+h4 {
+    font-size:35px;
+}
+h5 {
+    font-size:24px;
+}
+h6 {
+    font-size:20px;
+}
+
+html{scroll-behavior: smooth;}
+
+body {
+	overflow-x: hidden;
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+    word-spacing: normal;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #212529;  
+
+}
+p {
+    margin-bottom: 15px;
+    line-height:21px;
+    color: #6a6c72;
+    font-weight: 400;
+    font-size: 18px;
+}
+p:last-child {
+	margin-bottom: 0px;
+}
+strong{font-weight:700;}
+
+
+
+body {
+	overflow-x: hidden; 
+}
+#wrapper {
+	overflow: hidden;
+}
+
+
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+
+
+.container {
+	width: 1280px;
+	margin: auto;
+	padding: 0 15px;
+	max-width: 100%;
+}
+section {
+	float: left;
+	width: 100%;
+}
+.col-6{width:50%; padding:0 15px;}
+.col-4{width:33.333%; padding:0 15px;}
+.col-3{width:25%; padding:0 15px;}
+
+#wrapper {
+	float: left;
+	width: 100%;
+}
+#header {
+	float: left;
+	width: 100%;
+		-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	transition: 0.4s;
+	position: absolute;
+	left: 0;
+	top: 0; padding:20px 0 0 0;
+
+}
+
+.banner{float:left; width:100%;}
+.banner img{float:left; width:100%;}
+
+.banner_layer{position:absolute; left:0; top:40%; width:100%;-webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);text-align:center;}
+.banner_layer h1{font-size:50px; color:#ff9900;
+text-shadow: 2px 2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, -2px -2px 0 #fff, 2px 0px 0 #fff, 0px 2px 0 #fff, -2px 0px 0 #fff, 0px -2px 0 #fff;}
+.banner_layer h2{font-size:50px; color:#000;text-shadow: 2px 2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, -2px -2px 0 #fff, 2px 0px 0 #fff, 0px 2px 0 #fff, -2px 0px 0 #fff, 0px -2px 0 #fff;}
+
+.section1{text-align:center;}
+.white_sec img{margin-bottom:13px;}
+.white_sec{float:left; width:100%; margin-top:-70px; background:#fff; padding:30px; border-bottom:solid 1px #ebebeb; margin-bottom:50px;}
+
+.section2{text-align:center;}
+.section2 h4 {
+    font-size: 50px; height:120px;
+}
+.section2 img {
+    display: block;
+    margin: auto;
+    background: #fff;
+    padding: 5px;
+    border: solid 1px #fafafa;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    text-align: center;
+}
+.btn1{border:solid 1px #000; padding:20px 30px; display:inline-block; vertical-align:top; margin-top:30px;}
+.btn1:hover{color:#fff; background:#000;}
+
+.section3{margin-top:50px; text-align:center;}
+.section3 img{float:left; width:100%;}
+
+
+footer{background:#ff9900; float:left; width:100%; padding:50px; margin-top:50px;}
+footer p{color:#fff; line-height:21px; margin-bottom:15px;    font-size: 18px;}
+footer p a{color:#fff;}
+
+footer h4{margin-bottom:20px;}
+footer img{margin-bottom:13px;}
+.center{text-align:center;}
+.right{text-align:right;}
+@media screen and (max-width: 1199px){
+.banner img{height:500px;object-fit: cover; width:auto;max-width:inherit;}
+.section2 h4 {
+    font-size: 30px;
+    height: 80px;
+}
+}
+@media screen and (max-width: 767px){
+.col-6,.col-4,.col-3{width:100%; padding:0 15px;}
+.col-6+.col-6,.col-4+.col-4,.col-3+.col-3{margin-top:40px;}
+
+.right,footer{text-align:center;}
+.banner_layer{top:50%;}
+.banner_layer h1 ,.banner_layer h2{
+    font-size: 28px;
+}
+.section2 h4 {
+    height: auto;font-size: 35px;
+}
+}
+
+@media screen and (max-width: 480px){
+
+.banner img {
+    height: 400px;
+}
+
+}
